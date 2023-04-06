@@ -30,8 +30,8 @@ def changeLight(img):
 try:
     for i in range(59):
         os.makedirs(new_path + os.sep + str(i))
-    except:
-        pass
+except:
+    pass
 
 for raw_dir_name in range(59):
 
